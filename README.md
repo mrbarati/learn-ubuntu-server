@@ -5,7 +5,6 @@
 
 [![Ubuntu](https://img.shields.io/badge/Ubuntu_Server-24.04-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/server)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Progress](https://img.shields.io/badge/Progress-5%2F5%20Phases-brightgreen)]()
 
 </div>
 
@@ -19,15 +18,24 @@
 
 ---
 
+## 👥 این دوره برای چه کسانی است؟
+
+- 🆕 کسانی که هیچ تجربه‌ای با لینوکس ندارند
+- 🌐 توسعه‌دهندگانی که می‌خوان سرور خودشون رو مدیریت کنن
+- 🏢 کسانی که می‌خوان وارد دنیای DevOps بشن
+- 🎓 دانشجویان رشته‌های IT و کامپیوتر
+
+---
+
 ## 🗺️ نقشه راه
 
 | فاز | نام | جلسات | سطح | فایل |
 |:---:|:---|:---:|:---:|:---|
-| 🟢 | **مبانی و راه‌اندازی** | ۱ تا ۸ | مبتدی | [phase1.md](phase1.md) |
-| 🔵 | **شبکه و امنیت پایه** | ۹ تا ۱۶ | مبتدی-متوسط | [phase2.md](phase2.md) |
-| 🟡 | **سرورهای وب و پایگاه داده** | ۱۷ تا ۲۴ | متوسط | [phase3.md](phase3.md) |
-| 🟠 | **پیشرفته — امنیت و بهینه‌سازی** | ۲۵ تا ۳۲ | پیشرفته | [phase4.md](phase4.md) |
-| 🔴 | **فوق حرفه‌ای — DevOps و زیرساخت** | ۳۳ تا ۴۰ | فوق حرفه‌ای | [phase5.md](phase5.md) |
+| 🟢 | **مبانی و راه‌اندازی** | ۱ - ۸ | مبتدی | [phase1.md](phase1.md) |
+| 🔵 | **شبکه و امنیت پایه** | ۹ - ۱۶ | مبتدی-متوسط | [phase2.md](phase2.md) |
+| 🟡 | **سرورهای وب و پایگاه داده** | ۱۷ - ۲۴ | متوسط | [phase3.md](phase3.md) |
+| 🟠 | **پیشرفته — امنیت و بهینه‌سازی** | ۲۵ - ۳۲ | پیشرفته | [phase4.md](phase4.md) |
+| 🔴 | **فوق حرفه‌ای — DevOps و زیرساخت** | ۳۳ - ۴۰ | فوق حرفه‌ای | [phase5.md](phase5.md) |
 
 **کل دوره:** ۴۰ جلسه × ۳۰ دقیقه = **۲۰ ساعت آموزش عملی**
 
@@ -122,28 +130,26 @@
 
 ---
 
-## 🚀 شروع سریع
 
-### پیش‌نیازها
 
-- یک کامپیوتر یا ماشین مجازی (VM)
-- Ubuntu Server ISO ([دانلود از سایت رسمی](https://ubuntu.com/download/server))
-- اتصال اینترنت
-- کمی صبر و حوصله! 😊
+## 🚀 شروع کنید
 
-### نحوه استفاده
+### ۱. Ubuntu Server را نصب کنید
+- روی **VirtualBox** یا **VMware** (توصیه برای شروع)
+- یا روی **کامپیوتر قدیمی** / **Raspberry Pi**
+- [دانلود Ubuntu Server](https://ubuntu.com/download/server)
 
-1. مخزن را clone کنید:
-   ```bash
-   git clone https://github.com/mrbarati/learn-ubuntu-server.git
-   cd learn-ubuntu-server
-   ```
+### ۲. آموزش را بخوانید
+فایل هر فاز را روی **موبایل یا لپ‌تاپ** خودتان باز کنید و بخوانید:
+- شروع از: [phase1.md](phase1.md)
+- هر جلسه ۳۰ دقیقه
 
-2. Ubuntu Server را روی کامپیوتر یا VM نصب کنید
+### ۳. دستورات را روی سرور اجرا کنید
+هر دستوری که در آموزش دیدید، روی سرور Ubuntu خودتان تایپ یا کپی کنید.
 
-3. از [phase1.md](phase1.md) شروع کنید و جلسه به جلسه پیش بروید
+&gt; 💡 **نکته:** نیازی به `git clone` نیست! فایل‌ها را آنلاین بخوانید.
 
-4. هر دستور را روی سرور خودتان اجرا کنید — **یادگیری عملی** کلید موفقیت است!
+---
 
 ### پیشنهاد زمان‌بندی
 
@@ -247,6 +253,17 @@
 - [Linuxize](https://linuxize.com/)
 
 ---
+## 🚀 مسیر بعدی
+
+| مسیر | ابزارها |
+|:---|:---|
+| Cloud | AWS, Azure, GCP, Terraform |
+| Advanced K8s | Helm, ArgoCD, Istio |
+| Security | Vault, Trivy, Falco |
+| GitOps | ArgoCD, Flux |
+
+---
+
 
 ## 🤝 مشارکت
 
@@ -257,7 +274,5 @@
 <div align="center">
 
 ### ⭐ اگر این مخزن مفید بود، ستاره بدید!
-
-**ساخته‌شده با ❤️ برای یادگیری Ubuntu Server**
-
+Made with ❤️ by [mrbarati](https://github.com/mrbarati)
 </div>
